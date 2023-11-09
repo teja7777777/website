@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center !important;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkbox-container {
+    max-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+#searchInput{
+    display: inline-block;
+}
+
+#submit{
+    display: inline-block;
+    margin-left: 500px;
+}
